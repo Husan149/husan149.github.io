@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinus Funktsiyasining Grafigi</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="style.css"> <!-- CSS fayl alohida bo'lishi uchun -->
+</head>
+<body>
+
+    <h1>Sinus Funktsiyasining Grafigi Yuldoshev Husan Mustaqil ishi</h1>
+
+    <div id="plotly-graph"></div>
+
+    <!-- Kalkulyator -->
+    <div class="calculator">
+        <h3>Sinus Kalkulyatori</h3>
+        <input type="number" id="degreeInput" placeholder="Gradusni kiriting (°)" />
+        <button onclick="calculateSin()">Hisoblash</button>
+        <div class="result" id="result"></div>
+    </div>
+
+    <script src="script.js"></script> <!-- JavaScript fayl ham alohida bo'lishi mumkin -->
+</body>
+</html>
